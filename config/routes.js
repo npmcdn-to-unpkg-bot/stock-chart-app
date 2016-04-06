@@ -34,7 +34,18 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+  
+  // 'POST /addStock': {
+  //   controller: 'StockController',
+  //   action: 'addStock'
+  // },
+  
+  // '/*': {
+  //   controller: 'StockController',
+  //   action: 'redirectAll',
+  //   skipAssets: true
+  // }
 
   /***************************************************************************
   *                                                                          *

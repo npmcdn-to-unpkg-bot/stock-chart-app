@@ -1,0 +1,49 @@
+body {
+    background-color: #444444;
+    color: #D4E0C6;
+}
+
+.jumbotron {
+    margin: 70px 80px 100px 80px;
+    background-color: #2A2A2B;
+}
+
+.stock {
+    background-color: white;
+    padding: 20px 10px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.stock:hover {
+    border-left-color: #FF6347;
+}
+
+.stock h3 {
+    margin-top: 0;
+    color: #4D4D4D;
+}
+
+.stock span {
+    color: #A0A0A2;
+}
+
+.symbolInput {
+    background-color: white;
+    padding: 10px 10px 43px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    border-left-color: #5CB85C;
+}
+
+.symbolInput span {
+    color: #4D4D4D;
+}
+
+.symbolInput form {
+    margin-top: 10px;
+}

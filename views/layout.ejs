@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%=typeof title == 'undefined' ? 'New Sails App' : title%></title>
+    <title>Stock Chart App</title>
+    
+    <base href="/" />
 
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -37,7 +39,7 @@
     <!--STYLES END-->
   </head>
 
-  <body ng-app="PlaceFinderApp">
+  <body ng-app="StockChartApp">
     <%- body %>
 
 
@@ -94,10 +96,15 @@
     <!--SCRIPTS-->
     <script src="/js/dependencies/sails.io.js"></script>
     <script src="/js/dependencies/angular.min.js"></script>
+    <script src="/js/dependencies/angular-cookies.min.js"></script>
+    <script src="/js/dependencies/angular-route.min.js"></script>
     <script src="/js/dependencies/angular-toastr.tpls.js"></script>
-    <script src="/js/dependencies/angular-ui-router.min.js"></script>
-    <script src="/js/dependencies/satellizer.min.js"></script>
+    <script src="/js/dependencies/highcharts-ng.min.js"></script>
     <script src="/js/app.js"></script>
+    <script src="/js/controllers/main.controller.js"></script>
+    <script src="/js/services/logger.factory.js"></script>
+    <script src="/js/services/stocks.factory.js"></script>
     <!--SCRIPTS END-->
+    <script src="http://code.highcharts.com/stock/highstock.src.js"></script>
   </body>
 </html>
